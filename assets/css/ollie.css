@@ -269,12 +269,12 @@ select {
   word-wrap: normal;
 }
 
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-}
+} */
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -950,10 +950,10 @@ pre code {
   }
   .col-sm-6 {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 50%;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
+    -webkit-flex: 0 0 66%;
+        -ms-flex: 0 0 66%;
+            flex: 0 0 66%;
+    max-width: 66%;
   }
   .col-sm-7 {
     -webkit-box-flex: 0;
@@ -11355,7 +11355,7 @@ p {
 }
 
 .navbar-brand .brand-img {
-  width: 45px;
+  width: 180px;
   margin: -0.3125rem 0;
 }
 
