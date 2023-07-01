@@ -270,7 +270,7 @@ h6, .h6 {
     -webkit-flex: 0 0 66%;
         -ms-flex: 0 0 66%;
             flex: 0 0 66%;
-    max-width: 66%;
+    max-width: 75%;
   }
 }
 
@@ -297,7 +297,7 @@ h6, .h6 {
     -webkit-flex: 0 0 33.33333%;
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    max-width: 25%;
   }
   .col-md-6 {
     -webkit-box-flex: 0;
@@ -1769,4 +1769,13 @@ p {
 .section.bg-overlay {
   background: #2C3E50;
   color: #fff;
+}
+
+#about {
+  height: fit-content;
+}
+
+.introImg {
+  width: 300px;
+  border-radius: 15px;
 }
